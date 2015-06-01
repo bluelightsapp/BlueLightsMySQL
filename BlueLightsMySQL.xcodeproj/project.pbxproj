@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5F66701B1C320F003AEF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F666F1B1C320F003AEF2F /* main.m */; };
+		FA5F66731B1C320F003AEF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F66721B1C320F003AEF2F /* AppDelegate.m */; };
+		FA5F66761B1C320F003AEF2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F66751B1C320F003AEF2F /* ViewController.m */; };
+		FA5F66791B1C320F003AEF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5F66771B1C320F003AEF2F /* Main.storyboard */; };
+		FA5F667B1B1C320F003AEF2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5F667A1B1C320F003AEF2F /* Images.xcassets */; };
+		FA5F667E1B1C320F003AEF2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5F667C1B1C320F003AEF2F /* LaunchScreen.xib */; };
+		FA5F668A1B1C320F003AEF2F /* BlueLightsMySQLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F66891B1C320F003AEF2F /* BlueLightsMySQLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5F66841B1C320F003AEF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5F66621B1C320F003AEF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5F66691B1C320F003AEF2F;
+			remoteInfo = BlueLightsMySQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5F666A1B1C320F003AEF2F /* BlueLightsMySQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueLightsMySQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5F666E1B1C320F003AEF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5F666F1B1C320F003AEF2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA5F66711B1C320F003AEF2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA5F66721B1C320F003AEF2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA5F66741B1C320F003AEF2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA5F66751B1C320F003AEF2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA5F66781B1C320F003AEF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5F667A1B1C320F003AEF2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA5F667D1B1C320F003AEF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA5F66831B1C320F003AEF2F /* BlueLightsMySQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueLightsMySQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5F66881B1C320F003AEF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5F66891B1C320F003AEF2F /* BlueLightsMySQLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueLightsMySQLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5F66671B1C320F003AEF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F66801B1C320F003AEF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5F66611B1C320F003AEF2F = {
+			isa = PBXGroup;
+			children = (
+				FA5F666C1B1C320F003AEF2F /* BlueLightsMySQL */,
+				FA5F66861B1C320F003AEF2F /* BlueLightsMySQLTests */,
+				FA5F666B1B1C320F003AEF2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5F666B1B1C320F003AEF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F666A1B1C320F003AEF2F /* BlueLightsMySQL.app */,
+				FA5F66831B1C320F003AEF2F /* BlueLightsMySQLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5F666C1B1C320F003AEF2F /* BlueLightsMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F66711B1C320F003AEF2F /* AppDelegate.h */,
+				FA5F66721B1C320F003AEF2F /* AppDelegate.m */,
+				FA5F66741B1C320F003AEF2F /* ViewController.h */,
+				FA5F66751B1C320F003AEF2F /* ViewController.m */,
+				FA5F66771B1C320F003AEF2F /* Main.storyboard */,
+				FA5F667A1B1C320F003AEF2F /* Images.xcassets */,
+				FA5F667C1B1C320F003AEF2F /* LaunchScreen.xib */,
+				FA5F666D1B1C320F003AEF2F /* Supporting Files */,
+			);
+			path = BlueLightsMySQL;
+			sourceTree = "<group>";
+		};
+		FA5F666D1B1C320F003AEF2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F666E1B1C320F003AEF2F /* Info.plist */,
+				FA5F666F1B1C320F003AEF2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA5F66861B1C320F003AEF2F /* BlueLightsMySQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F66891B1C320F003AEF2F /* BlueLightsMySQLTests.m */,
+				FA5F66871B1C320F003AEF2F /* Supporting Files */,
+			);
+			path = BlueLightsMySQLTests;
+			sourceTree = "<group>";
+		};
+		FA5F66871B1C320F003AEF2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F66881B1C320F003AEF2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5F66691B1C320F003AEF2F /* BlueLightsMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5F668D1B1C320F003AEF2F /* Build configuration list for PBXNativeTarget "BlueLightsMySQL" */;
+			buildPhases = (
+				FA5F66661B1C320F003AEF2F /* Sources */,
+				FA5F66671B1C320F003AEF2F /* Frameworks */,
+				FA5F66681B1C320F003AEF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueLightsMySQL;
+			productName = BlueLightsMySQL;
+			productReference = FA5F666A1B1C320F003AEF2F /* BlueLightsMySQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5F66821B1C320F003AEF2F /* BlueLightsMySQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5F66901B1C320F003AEF2F /* Build configuration list for PBXNativeTarget "BlueLightsMySQLTests" */;
+			buildPhases = (
+				FA5F667F1B1C320F003AEF2F /* Sources */,
+				FA5F66801B1C320F003AEF2F /* Frameworks */,
+				FA5F66811B1C320F003AEF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5F66851B1C320F003AEF2F /* PBXTargetDependency */,
+			);
+			name = BlueLightsMySQLTests;
+			productName = BlueLightsMySQLTests;
+			productReference = FA5F66831B1C320F003AEF2F /* BlueLightsMySQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5F66621B1C320F003AEF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alex Krush";
+				TargetAttributes = {
+					FA5F66691B1C320F003AEF2F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FA5F66821B1C320F003AEF2F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FA5F66691B1C320F003AEF2F;
+					};
+				};
+			};
+			buildConfigurationList = FA5F66651B1C320F003AEF2F /* Build configuration list for PBXProject "BlueLightsMySQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5F66611B1C320F003AEF2F;
+			productRefGroup = FA5F666B1B1C320F003AEF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5F66691B1C320F003AEF2F /* BlueLightsMySQL */,
+				FA5F66821B1C320F003AEF2F /* BlueLightsMySQLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5F66681B1C320F003AEF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5F66791B1C320F003AEF2F /* Main.storyboard in Resources */,
+				FA5F667E1B1C320F003AEF2F /* LaunchScreen.xib in Resources */,
+				FA5F667B1B1C320F003AEF2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F66811B1C320F003AEF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5F66661B1C320F003AEF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5F66761B1C320F003AEF2F /* ViewController.m in Sources */,
+				FA5F66731B1C320F003AEF2F /* AppDelegate.m in Sources */,
+				FA5F66701B1C320F003AEF2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F667F1B1C320F003AEF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5F668A1B1C320F003AEF2F /* BlueLightsMySQLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5F66851B1C320F003AEF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5F66691B1C320F003AEF2F /* BlueLightsMySQL */;
+			targetProxy = FA5F66841B1C320F003AEF2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5F66771B1C320F003AEF2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5F66781B1C320F003AEF2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5F667C1B1C320F003AEF2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5F667D1B1C320F003AEF2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5F668B1B1C320F003AEF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5F668C1B1C320F003AEF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5F668E1B1C320F003AEF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueLightsMySQL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA5F668F1B1C320F003AEF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueLightsMySQL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA5F66911B1C320F003AEF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueLightsMySQLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueLightsMySQL.app/BlueLightsMySQL";
+			};
+			name = Debug;
+		};
+		FA5F66921B1C320F003AEF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueLightsMySQLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueLightsMySQL.app/BlueLightsMySQL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5F66651B1C320F003AEF2F /* Build configuration list for PBXProject "BlueLightsMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5F668B1B1C320F003AEF2F /* Debug */,
+				FA5F668C1B1C320F003AEF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5F668D1B1C320F003AEF2F /* Build configuration list for PBXNativeTarget "BlueLightsMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5F668E1B1C320F003AEF2F /* Debug */,
+				FA5F668F1B1C320F003AEF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA5F66901B1C320F003AEF2F /* Build configuration list for PBXNativeTarget "BlueLightsMySQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5F66911B1C320F003AEF2F /* Debug */,
+				FA5F66921B1C320F003AEF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5F66621B1C320F003AEF2F /* Project object */;
+}
