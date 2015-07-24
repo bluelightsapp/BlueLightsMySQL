@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Crashlytics/Crashlytics.h>
+#import "SlideNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Crashlytics startWithAPIKey:@"bc7bbbac56561d39a2638154f8312285b6083a7d"];
+    
+    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    
+    UITableViewController * leftMenu = (UITableViewController *)[storyboard instantiateViewControllerWithIdentifier: @"LeftMenuViewController"];
+    
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    
     return YES;
 }
 
